@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Show Data Table" icon-name="standard:product">
+        <div class="slds-var-p-around_medium">
+
+            <!-- <lightning-datatable key-field="Id" data={product} columns={columns} hide-checkbox-column="true"></lightning-datatable> -->
+
+
+            <c-custom-data-table key-field="Id" data={product} columns={columns}
+                hide-checkbox-column="true"></c-custom-data-table>
+        </div>
+    </lightning-card>
+</template>
